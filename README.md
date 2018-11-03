@@ -1,7 +1,7 @@
 ### docker
 
 ```bash
-$ docker run -d -p 5672:5672 --name rabbitmq rabbitmq:3.7.4-rc.4-alpine
+$ docker run -d -p 5672:5672 -p 15672:15672 rabbitmq:3.7-management-alpine
 ```
 
 ### Architecture
